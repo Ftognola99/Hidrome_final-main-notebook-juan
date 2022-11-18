@@ -786,7 +786,7 @@ Zoom effect in produt site
 	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
 	
   /*hide the glass by default*/
-	display: none;
+	display: inside;
   
 	/*Lets load up the large image first*/
   background-color: #fff;
@@ -796,7 +796,7 @@ Zoom effect in produt site
 }
 
 /*To solve overlap bug at the edges during magnification*/
-.small { display: block; }
+
 
 
 
