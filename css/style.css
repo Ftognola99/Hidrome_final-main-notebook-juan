@@ -452,7 +452,7 @@ a:focus, a:hover {
 Zoom effect in produt site
 =============================================*/
 
-.contenido {
+/* .contenido {
   position: relative;
   width: 640px;
   height: auto;
@@ -460,7 +460,7 @@ Zoom effect in produt site
   border: 12px solid #fff;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(50,50,50 0.5);
-}
+} */
 
 /*=================================================================
   Navigation
