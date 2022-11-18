@@ -431,7 +431,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background-image: url("../images/about/about-header.jpg");
+  background-image: url("../images/showroom.jpg");
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
@@ -795,9 +795,7 @@ Zoom effect in produt site
 	
 }
 
-@media {
-  max
-}
+
 
 /*To solve overlap bug at the edges during magnification*/
 
@@ -943,7 +941,7 @@ Zoom effect in produt site
 ==================================================================*/
 .call-to-action {
   padding: 100px 0;
-  background: url("../images/call-to-action/call-to-action-bg-2.jpg");
+  background: url("#");
   background-size: cover;
   color: #fff;
 }
