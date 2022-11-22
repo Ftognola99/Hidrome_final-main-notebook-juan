@@ -431,7 +431,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background-image: url("../images/showroom.jpg");
+  background-image: url("../images/about-header.jpg");
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
@@ -597,7 +597,7 @@ Zoom effect in produt site
   background: #fff;
 }
 .sticky-header .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #000;
+  color: rgb(8, 8, 8);
 }
 .sticky-header .logo-white {
   display: none;
@@ -616,17 +616,84 @@ Zoom effect in produt site
 }
 
 .hero-area {
-  background-image: url("../images/slider/slider-bg-1.jpg");
+  background-image: url("../images/call-to-action/g.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 130vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.hero-area-2 {
+  background-image: url("../images/call-to-action/Thumbnail-Images-zac94553.jpg");
+  background-size:cover;
+  height: 130vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-area-2:before {
+  content: rgb(0, 0, 0 );
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.hero-area-2 .block {
+  color: rgb(0, 0, 0);
+}
+.hero-area-2 .block h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.hero-area-2 .block p {
+  color: rgb(255, 255, 255);
+  width: 50%;
+  
+  margin-bottom: 20px;
+}
+.hero-area-2 .block .btn-main {
+  margin-right: 8px;
+}
+.hero-area-2 .block .btn-main:hover {
+  opacity: 0.8;
+}
+
+.hero-area-video {
+  height: 100vh;
+  position: inherit !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-area-video .block {
+  color: #fff;
+  text-align: center;
+}
+.hero-area-video .block h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-area-video .block p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+.hero-area-video .block .btn-main {
+  margin-top: 20px;
+}
 .hero-area:before {
   content: "";
-  background: rgba(0, 0, 0, 0.63);
+  background: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -960,7 +1027,7 @@ Zoom effect in produt site
 ==================================================================*/
 .call-to-action-2 {
   padding: 100px 0;
-  background-image: url("../images/call-to-action/call-to-action-bg.jpg");
+  background-image: url("../images/call-to-action/IMG_0509.JPG");
   background-size: cover;
   color: #fff;
 }
@@ -1565,7 +1632,7 @@ Zoom effect in produt site
 ==================================================================*/
 .testimonial {
   padding-top: 100px;
-  background: #28ABE3;
+  background: #000000;
   position: relative;
   padding-bottom: 0px;
   margin-bottom: 80px;
@@ -1977,7 +2044,7 @@ Zoom effect in produt site
   margin-bottom: 8px;
 }
 .comment-wrap .media .media-heading a {
-  color: #28ABE3;
+  color: #000000;
   font-size: 13px;
 }
 .comment-wrap .media .comment-meta {
@@ -1998,7 +2065,7 @@ Zoom effect in produt site
 }
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #28ABE3;
+  border: 1px solid #000000;
 }
 .comment-reply-form textarea, .comment-reply-form .btn-main {
   height: auto;
