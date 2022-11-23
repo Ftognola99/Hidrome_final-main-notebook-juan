@@ -32,7 +32,7 @@
 
 
 /* Inserting style for basic layout structure. */
-header
+.header
 {
 	width: 100%;
 	height: 100%;
@@ -42,21 +42,23 @@ header
 	z-index: -1;
 }
 
-footer
+.footer
 {
 	width: 100%;
-	height: 300px;
-	background: url(../images/slider/jockeynegro.jpg);
-	bottom: -300px;
-	position: fixed;
+	height: 100%;
+	background: url(../images/slider/acquerelli-gallery-04.2400x0.jpg) no-repeat 50% 50%;
+	top: 0;
+	position: center;
 	z-index: -1;
 }
+
+
 
 .content
 {
 	height: 1000px;
 	min-height: 1000px;
-	background: url(../images/slider/jockeynegro.jpg);
+	background: url(../images/slider/acquerelli-gallery-01.2400x0.jpg);
 	position: relative;
 	z-index: 1;
 }
@@ -85,7 +87,7 @@ header h1{}
 
 .content h1{
 	line-height: 1000px;
-	color: #999;
+	color: rgb(134, 19, 19);
 }
 
 footer h1
