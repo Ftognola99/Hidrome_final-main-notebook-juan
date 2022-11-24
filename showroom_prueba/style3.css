@@ -1,0 +1,43 @@
+section {
+  height: 500px
+}
+
+/* Class to add to background-cover */
+.background-cover {
+	background: no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.parallax {
+	position: relative;
+	background: transparent;
+	overflow-y: hidden;
+}
+
+.parallax-bg {
+    z-index: 500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+}
+
+.slide-1 .parallax-bg {
+background-image: url('https://www.w3schools.com/css/img_fjords.jpg');
+}
+
+.slide-3.slide-3 {
+  height: 1500px;
+}
+.slide-2 .parallax-bg {
+background-image: url('https://camo.mybb.com/e01de90be6012adc1b1701dba899491a9348ae79/687474703a2f2f7777772e6a71756572797363726970742e6e65742f696d616765732f53696d706c6573742d526573706f6e736976652d6a51756572792d496d6167652d4c69676874626f782d506c7567696e2d73696d706c652d6c69676874626f782e6a7067');
+}
+
+.slide-3 .parallax-bg {
+background-image: url('https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg');
+}
