@@ -19,7 +19,7 @@
   ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="One page parallax responsive HTML Template">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"> 
 
   <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
 
@@ -40,6 +40,8 @@
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet"  href="css/script-slider1.less">
 
 
 
@@ -127,7 +129,7 @@ End Fixed Navigation
 ==================================== -->
 
 
-<div class="hero-slider">   
+<!-- <div class="hero-slider">   
 	<div class="slider-item th-fullpage hero-area" style="background-image: url(./images/slider/flatoaltonegromod.jpg);">
 		<div class="container">
 			<div class="row">
@@ -156,16 +158,26 @@ End Fixed Navigation
 			</div>
 		</div>
 	</div>
+</div> -->
+
+<div id="main">
+  <h1>something</h1>
+  <div class="buttons">
+      <button class="next" onclick="go(-1)"></button>
+      <button class="prev" onclick="go(1)"></button>
+  </div>
 </div>
 
-<div class="hero-slider">
+
+<!-- <div class="hero-slider">
 	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/vectorskin1.jpg);">
 		<div class="container">
-      <!-- <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-vector-skin"
-      href="service.html">Mas Informacion</a> -->
+      <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-vector-skin"
+      href="service.html">Mas Informacion</a>
 		</div>
 	</div>
-</div>
+</div> -->
+
 
 
 
@@ -272,6 +284,11 @@ End Fixed Navigation
 <script src="js/slider.js"></script>
 
 <script src="js/tailwind.config.js"></script>
+
+<script src="./script-slider1.js"></script>
+
+
+
 </body>
 
 </html>
