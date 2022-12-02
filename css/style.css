@@ -593,8 +593,8 @@ Zoom effect in produt site
   }
 }
 .sticky-header {
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
-  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0);
+  background: rgb(247, 247, 247);
 }
 .sticky-header .navbar-light .navbar-nav .nav-item .nav-link {
   color: rgb(8, 8, 8);
@@ -2601,7 +2601,8 @@ Zoom effect in produt site
   }
 }
 
-@charset "utf-8";
+
+
 /* CSS Document */
 
 body{
