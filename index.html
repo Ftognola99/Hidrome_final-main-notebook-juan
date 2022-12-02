@@ -35,6 +35,12 @@
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
+  <link rel="stylesheet" href="./slider/demo/slider.css">
+
+  <link rel="stylesheet" href="./slider/css/css-fadeshow.min.css"
+
+  
+
 
 
 
@@ -122,61 +128,98 @@ End Fixed Navigation
 ==================================== -->
 
 
-<div class="hero-slider">   
-	<div class="slider-item th-fullpage hero-area" style="background-image: url(./images/slider/flatoaltonegromod.jpg);">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1"><br>
-						</h1>
-					<p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">
-						
-						 <br></p>
+<div class="container1">
 
-				</div>
-			</div>
-		</div>
-	</div> 
-	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/swanfnegro.jpg);">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1"> <br>
-						</h1>	
-					<p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">
-						
-						<br></p>
-					
-				</div>
-			</div>
-		</div>
-	</div>
+  <div data-fadeshow="quick-nav prev-next-nav slide-counter autoplay ken-burns">
+
+    <!-- Radio -->
+    <input type="radio" name="css-fadeshow" id="fs-slide-1" />
+    <input type="radio" name="css-fadeshow" id="fs-slide-2" />
+    <input type="radio" name="css-fadeshow" id="fs-slide-3" />
+    <input type="radio" name="css-fadeshow" id="fs-slide-4" />
+    <input type="radio" name="css-fadeshow" id="fs-slide-5" />
+
+    <!-- Slides -->
+    <div class="fs-slides">
+      <div class="fs-slide">
+        <div class="fs-slide-bg" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/hidromet-77fd6.appspot.com/o/JOCKEY%20BLANCO.jpg?alt=media&token=da8d96a0-daa6-4533-a291-5dba3bcb51c6);"></div>
+        <!-- You can add content to slides (class names are not bound to CSS Fadeshow) -->
+        <div class="slide-content">
+          <h1></h1>
+          <p><strong></strong></p>
+        </div>
+      </div>
+      <div class="fs-slide">
+        <div class="fs-slide-bg" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/hidromet-77fd6.appspot.com/o/blockplane.jpg?alt=media&token=1d3ceaf8-6411-41be-930d-ef62f5b201e3);"></div>
+      </div>
+      <div class="fs-slide">
+        <div class="fs-slide-bg" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/hidromet-77fd6.appspot.com/o/flatoaltonegromod.jpg?alt=media&token=b42c08c0-d90b-4706-989e-3415cd753094);"></div>
+      </div>
+      <div class="fs-slide">
+        <div class="fs-slide-bg" style="background-image: url(https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?crop=entropy&fit=crop&fm=jpg&h=1300&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2500);"></div>
+      </div>
+      <div class="fs-slide">
+        <div class="fs-slide-bg" style="background-image: url(https://images.unsplash.com/photo-1432117068802-b224427256a5?crop=entropy&fit=crop&fm=jpg&h=1300&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2500);"></div>
+      </div>
+    </div>
+
+    <!-- Quick Navigation -->
+    <div class="fs-quick-nav">
+      <label class="fs-quick-btn" for="fs-slide-1"></label>
+      <label class="fs-quick-btn" for="fs-slide-2"></label>
+      <label class="fs-quick-btn" for="fs-slide-3"></label>
+      <label class="fs-quick-btn" for="fs-slide-4"></label>
+      <label class="fs-quick-btn" for="fs-slide-5"></label>
+    </div>
+
+    <!-- Prev Navigation -->
+    <div class="fs-prev-nav">
+      <label class="fs-prev-btn" for="fs-slide-1"></label>
+      <label class="fs-prev-btn" for="fs-slide-2"></label>
+      <label class="fs-prev-btn" for="fs-slide-3"></label>
+      <label class="fs-prev-btn" for="fs-slide-4"></label>
+      <label class="fs-prev-btn" for="fs-slide-5"></label>
+    </div>
+
+    <!-- Next Navigation -->
+    <div class="fs-next-nav">
+      <label class="fs-next-btn" for="fs-slide-1"></label>
+      <label class="fs-next-btn" for="fs-slide-2"></label>
+      <label class="fs-next-btn" for="fs-slide-3"></label>
+      <label class="fs-next-btn" for="fs-slide-4"></label>
+      <label class="fs-next-btn" for="fs-slide-5"></label>
+    </div>
+
+    <!-- Slide Counter -->
+    <div class="fs-slide-counter">
+      <span class="fs-slide-counter-current"></span>/<span class="fs-slide-counter-total"></span>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="banner">
+ </div> <!--No tocar, hace de separador -->
+<div class="banner">
+  <div class="banner_description"></div>
+</div>
+<div class="banner_2">
 </div>
 
 
 
 
-<div class="hero-slider">
-	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/vectorskin1.jpg);">
-		<div class="container">
-      <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-vector-skin"
-      href="service.html">Mas Informacion</a>
-		</div>
-	</div>
-</div>
 
 
 
 
-
-<div class="hero-slider">
-	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/vectorskinn1.jpg);">
-		<div class="container">
-      <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-vector"
-      href="service.html">Mas Informacion</a>
-		</div>
-		</div>
-	</div>
+<div class="hero-area">
+  <div class="paralelismo">
+    <div class="image1"></div>
+    <div class="image2"></div>
+  </div>
 </div>
 
 
@@ -271,6 +314,11 @@ End Fixed Navigation
 <script src="js/slider.js"></script>
 
 <script src="js/tailwind.config.js"></script>
+
+
+
+<script src="./parallax_try/script.js"></script>
+
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="./script-slider1.js"></script>
 
