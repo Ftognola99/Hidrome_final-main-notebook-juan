@@ -827,7 +827,7 @@ Zoom effect in produt site
 }
 
 /* slick style */
-.slick-slide {
+.slick-slide {  
   outline: 0;
 }
 
@@ -869,10 +869,16 @@ Zoom effect in produt site
   box-sizing: border-box;
 }
 
+@media (max-width:768px) {
+  .banner{
+    min-height: ;
+  }
+}
+
 
 .banner {
   width: 100%;
-  
+  max-width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -880,31 +886,31 @@ Zoom effect in produt site
   background-image: url(../images/slider/raptorcompleto.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background:center fixed url(../images/slider/raptorcompleto.jpg);
   flex: 2;
   padding: 25vh;
+
 }
 
 .banner_2 {
   width: 100%;
-  
   height: 100vh;
   display: flex;
   align-items: center;
   text-align: left;
-  background-image: url(../images/slider/raptor_slied.jpg);
+  image: url(../images/slider/raptor_slied.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: relative;
   background:center fixed url(../images/slider/raptor_slied.jpg);
+  
 
 
 }
 
 .banner_3 {
   width: 100%;
-  
   height: 100vh;
   display: fixed;
   align-items: center;
@@ -913,7 +919,7 @@ Zoom effect in produt site
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background:center fixed url(../images/slider/vectorskin_negro.jpg);
+  /* background:center fixed url(../images/slider/vectorskin_negro.jpg); */
   flex: 2;
   padding: 25vh;
 }
@@ -928,12 +934,14 @@ Zoom effect in produt site
   background-image: url(../images/slider/vector_skin_skin.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background:center fixed url(../images/slider/vector_skin_skin.jpg);
 
 
 }
-/*To solve overlap bug at the edges during magnification*/
+
+
+
 
 
 
@@ -2639,7 +2647,7 @@ Zoom effect in produt site
 
 body{
 	margin: 0;
-	min-width: 980px;
+	min-width: 0px;
 	padding: 0;
 }
 
