@@ -869,11 +869,7 @@ Zoom effect in produt site
   box-sizing: border-box;
 }
 
-@media (max-width:768px) {
-  .banner{
-    min-height: ;
-  }
-}
+
 
 
 .banner {
@@ -899,7 +895,7 @@ Zoom effect in produt site
   display: flex;
   align-items: center;
   text-align: left;
-  image: url(../images/slider/raptor_slied.jpg);
+  background-image: url(../images/slider/raptor_slied.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: relative;
@@ -2649,6 +2645,11 @@ body{
 	margin: 0;
 	min-width: 0px;
 	padding: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
 }
 
 p{
