@@ -17,6 +17,23 @@ p {
   line-height: 1.65;
 }
 
+/* Scroll bar */
+
+.scrollbar {
+  margin-left: 30px;
+  float: left;
+  height: 300px;
+  width: 65px;
+  background: #fff;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Catamaran", sans-serif;
   font-weight: 600;
@@ -1099,11 +1116,28 @@ Zoom effect in produt site
  Call To Action 2
 ==================================================================*/
 .call-to-action-2 {
-  padding: 100px 0;
-  background-image: url("../images/call-to-action/IMG_0509.JPG");
+  width:95%;
+  height:30%;
+  margin:0 auto;
+  background-size: cover;
+  background-color:grey;
+  padding: 450px;
+  background-image: url("../images/hidromet_img_fabricasanluis-1030x689.png");
+  color: #fff;
+}
+.call-to-action-3 {
+  padding: 450px;
+  background-image: url("../images/Fabrica-07-1030x572.jpg");
   background-size: cover;
   color: #fff;
 }
+
+/* .call-to-action-4 {
+  padding: 400px;
+  background-image: url("../images/medio_ambiente.jpg");
+  background-size: 100%;
+  color: #fff;
+} */
 .call-to-action-2 h2 {
   line-height: 1.5;
 }
@@ -1484,7 +1518,7 @@ Zoom effect in produt site
   Services section
 ==================================================================*/
 .services {
-  padding: 100px 0 130px;
+  padding: 100px  130px;
 }
 .services .service-block.color-bg {
   background: #000000;
@@ -1564,7 +1598,7 @@ Zoom effect in produt site
 }
 
 .clients-logo-slider {
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 /*=================================================================
@@ -2659,6 +2693,7 @@ Zoom effect in produt site
   border-width: 1px 0;
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
+
 
 .b-example-vr {
   flex-shrink: 0;
